@@ -1,0 +1,78 @@
+.title-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px;
+  // margin-bottom: -60px;
+}
+.app {
+  // padding: 40px;
+  // background-color: #d8d7e1;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  .camping-holder {
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #000;
+    cursor: pointer;
+    h4 {
+      // background-color: #d8d7e1;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-align: center;
+    }
+
+    .brief-price {
+      // display: flex;
+      font-size: 12px;
+    }
+
+    .brief-des {
+      // margin-bottom: 10px;
+    }
+  }
+}
+
+.camping {
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // flex-direction: column;
+}
+.price {
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+.brief-des {
+  margin-bottom: 10px;
+}
+.camping {
+  width: 800px;
+  //
+}
+.campingImg {
+  // width: 300px;
+  //
+}
+.campingDes {
+  margin-bottom: 30px;
+}
+.price {
+  //
+}
+.close {
+  cursor: pointer;
+  padding: 10px 30px;
+  // width: 300px;
+  background-color: cadetblue;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
